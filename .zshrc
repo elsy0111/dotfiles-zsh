@@ -131,5 +131,7 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
 alias xsvps="kitten ssh 162.43.27.150"
 alias myvps="kitten ssh 162.43.6.205"
 
+alias shot='hyprshot -m region --clipboard-only'
+
 alias mntwin="sudo mount -t ntfs /dev/nvme0n1p3 /mnt"
 alias umnt="sudo umount /mnt"
