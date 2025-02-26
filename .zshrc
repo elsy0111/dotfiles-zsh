@@ -128,8 +128,10 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
 
 # source ~/.nvm/nvm.sh
 
-alias xsvps="kitten ssh 162.43.27.150"
-alias myvps="kitten ssh 162.43.6.205"
+# alias xsvps="kitten ssh 162.43.27.150"
+# alias myvps="kitten ssh 162.43.6.205"
+alias xsvps="ssh 162.43.27.150"
+alias myvps="ssh 162.43.6.205"
 
 alias shot='hyprshot -m region --clipboard-only'
 
