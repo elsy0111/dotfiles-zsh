@@ -137,3 +137,4 @@ alias shot='hyprshot -m region --clipboard-only'
 
 alias mntwin="sudo mount -t ntfs /dev/nvme0n1p3 /mnt"
 alias umnt="sudo umount /mnt"
+alias cd="z"
